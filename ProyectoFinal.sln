@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinal", "ProyectoFinal\ProyectoFinal.csproj", "{874841A8-47AD-406D-85EA-8E2FF260B7A0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Brunsd", "Instalador_Brunsd\Instalador_Brunsd.vdproj", "{03650A9C-2634-47F1-AB6D-17C90C9C1225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBrunsd", "TestBrunsd\TestBrunsd.csproj", "{96AFB3FB-AF02-418A-9A84-E24FFD32CF0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{874841A8-47AD-406D-85EA-8E2FF260B7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874841A8-47AD-406D-85EA-8E2FF260B7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874841A8-47AD-406D-85EA-8E2FF260B7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874841A8-47AD-406D-85EA-8E2FF260B7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03650A9C-2634-47F1-AB6D-17C90C9C1225}.Debug|Any CPU.ActiveCfg = Debug
+		{03650A9C-2634-47F1-AB6D-17C90C9C1225}.Release|Any CPU.ActiveCfg = Release
+		{96AFB3FB-AF02-418A-9A84-E24FFD32CF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AFB3FB-AF02-418A-9A84-E24FFD32CF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AFB3FB-AF02-418A-9A84-E24FFD32CF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AFB3FB-AF02-418A-9A84-E24FFD32CF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1AC3DF4-1B99-4341-B2DB-5ACB6652C2D3}
+	EndGlobalSection
+EndGlobal

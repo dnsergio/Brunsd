@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{874841A8-47AD-406D-85EA-8E2FF260B7A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v20.2" />
+    <Reference Include="DevExpress.Data.Desktop.v20.2" />
+    <Reference Include="DevExpress.Data.v20.2" />
+    <Reference Include="DevExpress.Utils.v20.2" />
+    <Reference Include="DevExpress.Sparkline.v20.2.Core" />
+    <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.2" />
+    <Reference Include="DevExpress.Printing.v20.2.Core" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\addShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\addShop.Designer.cs">
+      <DependentUpon>addShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\adminLobby.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\adminLobby.Designer.cs">
+      <DependentUpon>adminLobby.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\allSold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\allSold.Designer.cs">
+      <DependentUpon>allSold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\bu_price.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\bu_price.Designer.cs">
+      <DependentUpon>bu_price.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\confimarcion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\confimarcion2.Designer.cs">
+      <DependentUpon>confimarcion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\confirmacionsold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\confirmacionsold.Designer.cs">
+      <DependentUpon>confirmacionsold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\confirmacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\confirmacion.Designer.cs">
+      <DependentUpon>confirmacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\price_pro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\price_pro.Designer.cs">
+      <DependentUpon>price_pro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\all_pro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\all_pro.Designer.cs">
+      <DependentUpon>all_pro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\bu_res.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\bu_res.Designer.cs">
+      <DependentUpon>bu_res.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\all2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\all2.Designer.cs">
+      <DependentUpon>all2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lobbys\contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lobbys\contact.Designer.cs">
+      <DependentUpon>contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lobbys\lobby1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lobbys\lobby1.Designer.cs">
+      <DependentUpon>lobby1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lobbys\pro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lobbys\pro.Designer.cs">
+      <DependentUpon>pro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lobbys\shops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lobbys\shops.Designer.cs">
+      <DependentUpon>shops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_elec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_elec.Designer.cs">
+      <DependentUpon>pro_elec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_garden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_garden.Designer.cs">
+      <DependentUpon>pro_garden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_multii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_multii.Designer.cs">
+      <DependentUpon>pro_multii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_home.Designer.cs">
+      <DependentUpon>pro_home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\probuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\probuy.Designer.cs">
+      <DependentUpon>probuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_videog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_videog.Designer.cs">
+      <DependentUpon>pro_videog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_sport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_sport.Designer.cs">
+      <DependentUpon>pro_sport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_ropa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_ropa.Designer.cs">
+      <DependentUpon>pro_ropa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\pro_other.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\pro_other.Designer.cs">
+      <DependentUpon>pro_other.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\sale2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\sale2.Designer.cs">
+      <DependentUpon>sale2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pro_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pro_user.Designer.cs">
+      <DependentUpon>pro_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Login_Register\Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Register\Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Register\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Register\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserva.Designer.cs">
+      <DependentUpon>Reserva.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\addShop.resx">
+      <DependentUpon>addShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\adminLobby.resx">
+      <DependentUpon>adminLobby.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\allSold.resx">
+      <DependentUpon>allSold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\bu_price.resx">
+      <DependentUpon>bu_price.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\confimarcion2.resx">
+      <DependentUpon>confimarcion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\confirmacionsold.resx">
+      <DependentUpon>confirmacionsold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\confirmacion.resx">
+      <DependentUpon>confirmacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\price_pro.resx">
+      <DependentUpon>price_pro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\all_pro.resx">
+      <DependentUpon>all_pro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\bu_res.resx">
+      <DependentUpon>bu_res.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\all2.resx">
+      <DependentUpon>all2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lobbys\contact.resx">
+      <DependentUpon>contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lobbys\lobby1.resx">
+      <DependentUpon>lobby1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lobbys\pro.resx">
+      <DependentUpon>pro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lobbys\shops.resx">
+      <DependentUpon>shops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_elec.resx">
+      <DependentUpon>pro_elec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_garden.resx">
+      <DependentUpon>pro_garden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_multii.resx">
+      <DependentUpon>pro_multii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_home.resx">
+      <DependentUpon>pro_home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\probuy.resx">
+      <DependentUpon>probuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_videog.resx">
+      <DependentUpon>pro_videog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_sport.resx">
+      <DependentUpon>pro_sport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_ropa.resx">
+      <DependentUpon>pro_ropa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\pro_other.resx">
+      <DependentUpon>pro_other.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\sale2.resx">
+      <DependentUpon>sale2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_user.resx">
+      <DependentUpon>pro_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Register\Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Register\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reserva.resx">
+      <DependentUpon>Reserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\instagram-logo %281%29.png" />
+    <Content Include="images\libros.jpg" />
+    <Content Include="images\pelis.jpg" />
+    <Content Include="images\segunda-mano-726x405.jpg" />
+    <Content Include="images\twitter.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
